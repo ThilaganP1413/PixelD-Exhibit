@@ -9,7 +9,7 @@ body {
 }
 
 .grid {
-  background: #CCC;
+  background: #131313;
   width: 3000px;
   padding: 250px;
 }
@@ -21,15 +21,14 @@ body {
 }
 
 .grid-item {
-  box-sizing:border-box;
-  text-align: center;
-  padding-top: 100px;
+  box-sizing: border-box;
   width: 250px;
   height: 250px;
-  overflow: hidden;
-  float: left;
-  background: #BBB;
   border-radius: 50%;
+  float: left;
+  background: #d6d6d6;
+  background-size: cover;      /* Fill circle without stretching */
+  background-position: center; /* Keep image centered */
   margin: 0px;
   margin-top: -35px;
 }
