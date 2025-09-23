@@ -1,0 +1,262 @@
+Poster Names Before and After Renaming
+=====================================
+Original Name -> New Name
+=====================================
+ahbdt (1).jpg -> poster1.jpg
+ahbdt (1).png -> poster2.png
+ahbdt (10).jpg -> poster3.jpg
+ahbdt (10).png -> poster4.png
+ahbdt (100).jpg -> poster5.jpg
+ahbdt (101).jpg -> poster6.jpg
+ahbdt (102).jpg -> poster7.jpg
+ahbdt (103).jpg -> poster8.jpg
+ahbdt (104).jpg -> poster9.jpg
+ahbdt (105).jpg -> poster10.jpg
+ahbdt (11).jpg -> poster11.jpg
+ahbdt (11).png -> poster12.png
+ahbdt (12).jpg -> poster13.jpg
+ahbdt (12).png -> poster14.png
+ahbdt (13).jpg -> poster15.jpg
+ahbdt (13).png -> poster16.png
+ahbdt (14).jpg -> poster17.jpg
+ahbdt (14).png -> poster18.png
+ahbdt (15).jpg -> poster19.jpg
+ahbdt (15).png -> poster20.png
+ahbdt (16).jpg -> poster21.jpg
+ahbdt (16).png -> poster22.png
+ahbdt (17).jpg -> poster23.jpg
+ahbdt (17).png -> poster24.png
+ahbdt (18).jpg -> poster25.jpg
+ahbdt (18).png -> poster26.png
+ahbdt (19).jpg -> poster27.jpg
+ahbdt (19).png -> poster28.png
+ahbdt (2).jpg -> poster29.jpg
+ahbdt (2).png -> poster30.png
+ahbdt (20).jpg -> poster31.jpg
+ahbdt (20).png -> poster32.png
+ahbdt (21).jpg -> poster33.jpg
+ahbdt (21).png -> poster34.png
+ahbdt (22).jpg -> poster35.jpg
+ahbdt (22).png -> poster36.png
+ahbdt (23).jpg -> poster37.jpg
+ahbdt (24).jpg -> poster38.jpg
+ahbdt (25).jpg -> poster39.jpg
+ahbdt (26).jpg -> poster40.jpg
+ahbdt (27).jpg -> poster41.jpg
+ahbdt (28).jpg -> poster42.jpg
+ahbdt (29).jpg -> poster43.jpg
+ahbdt (3).jpg -> poster44.jpg
+ahbdt (3).png -> poster45.png
+ahbdt (30).jpg -> poster46.jpg
+ahbdt (31).jpg -> poster47.jpg
+ahbdt (32).jpg -> poster48.jpg
+ahbdt (33).jpg -> poster49.jpg
+ahbdt (34).jpg -> poster50.jpg
+ahbdt (35).jpg -> poster51.jpg
+ahbdt (36).jpg -> poster52.jpg
+ahbdt (37).jpg -> poster53.jpg
+ahbdt (38).jpg -> poster54.jpg
+ahbdt (39).jpg -> poster55.jpg
+ahbdt (4).jpg -> poster56.jpg
+ahbdt (4).png -> poster57.png
+ahbdt (40).jpg -> poster58.jpg
+ahbdt (41).jpg -> poster59.jpg
+ahbdt (42).jpg -> poster60.jpg
+ahbdt (43).jpg -> poster61.jpg
+ahbdt (44).jpg -> poster62.jpg
+ahbdt (45).jpg -> poster63.jpg
+ahbdt (46).jpg -> poster64.jpg
+ahbdt (47).jpg -> poster65.jpg
+ahbdt (48).jpg -> poster66.jpg
+ahbdt (49).jpg -> poster67.jpg
+ahbdt (5).jpg -> poster68.jpg
+ahbdt (5).png -> poster69.png
+ahbdt (50).jpg -> poster70.jpg
+ahbdt (51).jpg -> poster71.jpg
+ahbdt (52).jpg -> poster72.jpg
+ahbdt (53).jpg -> poster73.jpg
+ahbdt (54).jpg -> poster74.jpg
+ahbdt (55).jpg -> poster75.jpg
+ahbdt (56).jpg -> poster76.jpg
+ahbdt (57).jpg -> poster77.jpg
+ahbdt (58).jpg -> poster78.jpg
+ahbdt (59).jpg -> poster79.jpg
+ahbdt (6).jpg -> poster80.jpg
+ahbdt (6).png -> poster81.png
+ahbdt (60).jpg -> poster82.jpg
+ahbdt (61).jpg -> poster83.jpg
+ahbdt (62).jpg -> poster84.jpg
+ahbdt (63).jpg -> poster85.jpg
+ahbdt (64).jpg -> poster86.jpg
+ahbdt (65).jpg -> poster87.jpg
+ahbdt (66).jpg -> poster88.jpg
+ahbdt (67).jpg -> poster89.jpg
+ahbdt (68).jpg -> poster90.jpg
+ahbdt (69).jpg -> poster91.jpg
+ahbdt (7).jpg -> poster92.jpg
+ahbdt (7).png -> poster93.png
+ahbdt (70).jpg -> poster94.jpg
+ahbdt (71).jpg -> poster95.jpg
+ahbdt (72).jpg -> poster96.jpg
+ahbdt (73).jpg -> poster97.jpg
+ahbdt (74).jpg -> poster98.jpg
+ahbdt (75).jpg -> poster99.jpg
+ahbdt (76).jpg -> poster100.jpg
+ahbdt (77).jpg -> poster101.jpg
+ahbdt (78).jpg -> poster102.jpg
+ahbdt (79).jpg -> poster103.jpg
+ahbdt (8).jpg -> poster104.jpg
+ahbdt (8).png -> poster105.png
+ahbdt (80).jpg -> poster106.jpg
+ahbdt (81).jpg -> poster107.jpg
+ahbdt (82).jpg -> poster108.jpg
+ahbdt (83).jpg -> poster109.jpg
+ahbdt (84).jpg -> poster110.jpg
+ahbdt (85).jpg -> poster111.jpg
+ahbdt (86).jpg -> poster112.jpg
+ahbdt (87).jpg -> poster113.jpg
+ahbdt (88).jpg -> poster114.jpg
+ahbdt (89).jpg -> poster115.jpg
+ahbdt (9).jpg -> poster116.jpg
+ahbdt (9).png -> poster117.png
+ahbdt (90).jpg -> poster118.jpg
+ahbdt (91).jpg -> poster119.jpg
+ahbdt (92).jpg -> poster120.jpg
+ahbdt (93).jpg -> poster121.jpg
+ahbdt (94).jpg -> poster122.jpg
+ahbdt (95).jpg -> poster123.jpg
+ahbdt (96).jpg -> poster124.jpg
+ahbdt (97).jpg -> poster125.jpg
+ahbdt (98).jpg -> poster126.jpg
+ahbdt (99).jpg -> poster127.jpg
+
+=====================================
+Copy the Following to use in JS file
+=====================================
+  "poster1.jpg",
+  "poster2.png",
+  "poster3.jpg",
+  "poster4.png",
+  "poster5.jpg",
+  "poster6.jpg",
+  "poster7.jpg",
+  "poster8.jpg",
+  "poster9.jpg",
+  "poster10.jpg",
+  "poster11.jpg",
+  "poster12.png",
+  "poster13.jpg",
+  "poster14.png",
+  "poster15.jpg",
+  "poster16.png",
+  "poster17.jpg",
+  "poster18.png",
+  "poster19.jpg",
+  "poster20.png",
+  "poster21.jpg",
+  "poster22.png",
+  "poster23.jpg",
+  "poster24.png",
+  "poster25.jpg",
+  "poster26.png",
+  "poster27.jpg",
+  "poster28.png",
+  "poster29.jpg",
+  "poster30.png",
+  "poster31.jpg",
+  "poster32.png",
+  "poster33.jpg",
+  "poster34.png",
+  "poster35.jpg",
+  "poster36.png",
+  "poster37.jpg",
+  "poster38.jpg",
+  "poster39.jpg",
+  "poster40.jpg",
+  "poster41.jpg",
+  "poster42.jpg",
+  "poster43.jpg",
+  "poster44.jpg",
+  "poster45.png",
+  "poster46.jpg",
+  "poster47.jpg",
+  "poster48.jpg",
+  "poster49.jpg",
+  "poster50.jpg",
+  "poster51.jpg",
+  "poster52.jpg",
+  "poster53.jpg",
+  "poster54.jpg",
+  "poster55.jpg",
+  "poster56.jpg",
+  "poster57.png",
+  "poster58.jpg",
+  "poster59.jpg",
+  "poster60.jpg",
+  "poster61.jpg",
+  "poster62.jpg",
+  "poster63.jpg",
+  "poster64.jpg",
+  "poster65.jpg",
+  "poster66.jpg",
+  "poster67.jpg",
+  "poster68.jpg",
+  "poster69.png",
+  "poster70.jpg",
+  "poster71.jpg",
+  "poster72.jpg",
+  "poster73.jpg",
+  "poster74.jpg",
+  "poster75.jpg",
+  "poster76.jpg",
+  "poster77.jpg",
+  "poster78.jpg",
+  "poster79.jpg",
+  "poster80.jpg",
+  "poster81.png",
+  "poster82.jpg",
+  "poster83.jpg",
+  "poster84.jpg",
+  "poster85.jpg",
+  "poster86.jpg",
+  "poster87.jpg",
+  "poster88.jpg",
+  "poster89.jpg",
+  "poster90.jpg",
+  "poster91.jpg",
+  "poster92.jpg",
+  "poster93.png",
+  "poster94.jpg",
+  "poster95.jpg",
+  "poster96.jpg",
+  "poster97.jpg",
+  "poster98.jpg",
+  "poster99.jpg",
+  "poster100.jpg",
+  "poster101.jpg",
+  "poster102.jpg",
+  "poster103.jpg",
+  "poster104.jpg",
+  "poster105.png",
+  "poster106.jpg",
+  "poster107.jpg",
+  "poster108.jpg",
+  "poster109.jpg",
+  "poster110.jpg",
+  "poster111.jpg",
+  "poster112.jpg",
+  "poster113.jpg",
+  "poster114.jpg",
+  "poster115.jpg",
+  "poster116.jpg",
+  "poster117.png",
+  "poster118.jpg",
+  "poster119.jpg",
+  "poster120.jpg",
+  "poster121.jpg",
+  "poster122.jpg",
+  "poster123.jpg",
+  "poster124.jpg",
+  "poster125.jpg",
+  "poster126.jpg",
+  "poster127.jpg",
