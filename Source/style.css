@@ -31,6 +31,7 @@ body {
   margin: 0px;
   margin-top: -35px;
   cursor: pointer;
+  transition: transform 0.1s ease;
 }
 
 .grid-item-buffer {
@@ -70,16 +71,31 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s ease, visibility 0.1s ease;
+}
+
+.full-view.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .full-view.hidden {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .full-view-content {
   position: relative;
   max-width: 90%;
   max-height: 90%;
+  transform: scale(0.7);
+  transition: transform 0.1s ease;
+}
+
+.full-view.active .full-view-content {
+  transform: scale(1);
 }
 
 .full-image {

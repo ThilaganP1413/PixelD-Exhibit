@@ -152,13 +152,17 @@ posters.forEach(file => {
 function showFullView(file) {
   fullImage.src = `${posterFolder}${file}`;
   fullView.classList.remove("hidden");
+  fullView.classList.add("active");
 }
 
 // Close full view when clicking outside the image
 fullView.addEventListener("click", (event) => {
   if (event.target === fullView) {
-    fullView.classList.add("hidden");
-    fullImage.src = ""; // Clear the image source when closing
+    fullView.classList.remove("active");
+    setTimeout(() => {
+      fullView.classList.add("hidden");
+      fullImage.src = ""; // Clear the image source when closing
+    }, 100); // Match the transition duration
   }
 });
 
