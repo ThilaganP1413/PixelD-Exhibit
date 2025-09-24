@@ -132,7 +132,6 @@ var posters = [
 var grid = document.getElementById("grid");
 var fullView = document.getElementById("full-view");
 var fullImage = document.getElementById("full-image");
-var closeButton = document.getElementById("close-full-view");
 
 // Create grid items dynamically
 posters.forEach(file => {
@@ -148,9 +147,12 @@ function showFullView(file) {
   fullView.classList.remove("hidden");
 }
 
-closeButton.addEventListener("click", () => {
-  fullView.classList.add("hidden");
-  fullImage.src = ""; // Clear the image source when closing
+// Close full view when clicking outside the image
+fullView.addEventListener("click", (event) => {
+  if (event.target === fullView) {
+    fullView.classList.add("hidden");
+    fullImage.src = ""; // Clear the image source when closing
+  }
 });
 
 var items = document.querySelectorAll(".grid-item");
