@@ -1,9 +1,8 @@
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
   -ms-scroll-rails: none;
   scroll-rails: none;
-  
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-style: autohiding-scrollbar;
 }
@@ -27,10 +26,11 @@ body {
   border-radius: 50%;
   float: left;
   background: #d6d6d6;
-  background-size: cover;      /* Fill circle without stretching */
-  background-position: center; /* Keep image centered */
+  background-size: cover;
+  background-position: center;
   margin: 0px;
   margin-top: -35px;
+  cursor: pointer;
 }
 
 .grid-item-buffer {
@@ -43,19 +43,61 @@ body {
 .grid-item:nth-child(4),
 .grid-item:nth-child(5),
 .grid-item:nth-child(6) {
-   margin-top: 0px;
+  margin-top: 0px;
 }
 
 .grid-item:nth-child(13n+8) {
-    margin-left: 125px;
-  clear:left;
+  margin-left: 125px;
+  clear: left;
 }
 
 .grid-item:nth-child(13n+14) {
-    clear:left;
+  clear: left;
 }
-
 
 .grid-item:hover {
   background: #FFF;
+}
+
+.full-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.full-view.hidden {
+  display: none;
+}
+
+.full-view-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close-button {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.full-image {
+  width: 100%;
+  max-width: 800px;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
 }

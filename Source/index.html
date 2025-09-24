@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poster Honeycomb Grid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="grid" id="grid"></div>
-    <script src="app.js"></script>
+  <div id="grid" class="grid"></div>
+  <div id="full-view" class="full-view hidden">
+    <div class="full-view-content">
+      <button id="close-full-view" class="close-button">×</button>
+      <img id="full-image" class="full-image" src="" alt="Full size poster">
+    </div>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
