@@ -17,3 +17,10 @@ Install this extension in VS Code ![Live Sever Extension](Docs/image.png)
 Open `index.html` file and click on the `Go Live` button at the bottom right corner
 
 ![alt text](Docs/Button.png)
+
+
+## To Add or Remove Posters
+
+## How this Works
+
+## DEBUG Steps if it is Laggy

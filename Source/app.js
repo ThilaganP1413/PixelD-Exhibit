@@ -126,7 +126,14 @@ var posters = [
   "poster124.webp",
   "poster125.webp",
   "poster126.webp",
-  "poster127.webp"
+  "poster127.webp",
+  "poster128.webp",
+  "poster129.webp",
+  "poster130.webp",
+  "poster131.webp",
+  "poster132.webp",
+  "poster133.webp",
+  "poster134.webp"
 ];
 
 var grid = document.getElementById("grid");
@@ -170,7 +177,6 @@ if (c) {
   window.scroll(cr.left - (w / 2) + (cr.width / 2),
                 cr.top - (h / 2) + (cr.height / 2));
 
-  // Highlight it with a glowing red border instead of replacing the background
   c.style.boxShadow = "0 0 20px 5px red";
 }
 
